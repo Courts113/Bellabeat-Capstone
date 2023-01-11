@@ -10,3 +10,5 @@ Bellabeat, founded by Urška Sršen and Sando Mur, is a high-tech company that f
 ### Business Task
 Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to a Bellabeat product to develop a marketing strategy to promote company growth.
 ## Prepare
+### Data used for analysis
+> Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.53894
