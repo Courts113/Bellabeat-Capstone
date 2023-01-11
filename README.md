@@ -98,4 +98,6 @@ WHERE METs<>0
 
 Since we do not know much about the user demographics, we can analyze the data to get an idea about key characteristics of our users.
 
-image: AVGSteps.PNG
+![AVG Steps](https://user-images.githubusercontent.com/121068001/211927676-1e288c30-357a-4d3f-962b-49fc45be9a76.png)
+
+
