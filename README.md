@@ -41,7 +41,8 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * hourlyCalories
 
 Clean data to remove entries that included zero steps per day on dailyActivity
-'''
+
+'''SQL
 SELECT  *
 FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v3`
 WHERE TotalSteps<>0
