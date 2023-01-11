@@ -130,3 +130,20 @@ GROUP BY Id
 
 As the above graph shows, only 8 of the 33 users tracked their BMI through their activity tracker. 
 
+### Average Time Asleep per Night
+
+![AVG Total Sleep](https://user-images.githubusercontent.com/121068001/211933945-c89a92dd-5c7e-4bae-8c12-42a4399cf38e.png)
+
+Here is a quick graph visualization of the amount of sleep each user averages per night.  As noted prior, only 24 of 33 users tracked their sleep through their activity tracker.
+
+The following query was used to find these nightly averages:
+
+```
+SELECT 
+Id,
+AVG(TotalMinutesAsleep) AS average_minutes_asleep,
+AVG(TotalTimeInBed) AS average_time_in_bed
+FROM `capstone-project-370021.Fitbit_Data.SleepDay_merged_v2`
+GROUP BY Id
+```
+
