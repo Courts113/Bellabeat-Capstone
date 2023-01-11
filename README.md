@@ -9,3 +9,4 @@ Bellabeat, founded by Urška Sršen and Sando Mur, is a high-tech company that f
 + Bellabeat Executive Team
 ### Business Task
 Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to a Bellabeat product to develop a marketing strategy to promote company growth.
+## Prepare
