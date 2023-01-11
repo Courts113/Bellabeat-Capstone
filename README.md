@@ -100,4 +100,13 @@ Since we do not know much about the user demographics, we can analyze the data t
 
 ![AVG Steps](https://user-images.githubusercontent.com/121068001/211927676-1e288c30-357a-4d3f-962b-49fc45be9a76.png)
 
+Here we can see how many steps the users are taking on any average day. To find this information, the following query was used:
+
+```
+SELECT 
+Id,
+AVG(StepTotal) AS Average_Daily_Steps
+FROM `capstone-project-370021.Fitbit_Data.dailySteps_v2`
+GROUP BY Id
+```
 
