@@ -98,6 +98,8 @@ WHERE METs<>0
 
 Since we do not know much about the user demographics, we can analyze the data to get an idea about key characteristics of our users.
 
+### Average Steps per Day
+
 ![AVG Steps](https://user-images.githubusercontent.com/121068001/211927676-1e288c30-357a-4d3f-962b-49fc45be9a76.png)
 
 Here we can see how many steps the users are taking on any average day. To find this information, the following query was used:
@@ -109,4 +111,22 @@ AVG(StepTotal) AS Average_Daily_Steps
 FROM `capstone-project-370021.Fitbit_Data.dailySteps_v2`
 GROUP BY Id
 ```
+
+As we can see, average daily steps range from 1,247 - 16,807 steps per day. Average steps amongst all users was 9,011 steps per day.
+
+### Average BMI amongst users
+
+![AVG BMI](https://user-images.githubusercontent.com/121068001/211932698-22ad32f5-8cfa-4ba7-af51-a37d41ce7955.png)
+
+In order to get a snapshot of average BMI logged by users, the following query was used:
+
+```
+SELECT 
+Id,
+AVG(BMI) AS average_BMI
+FROM `capstone-project-370021.Fitbit_Data.weightLogInfo_v2`
+GROUP BY Id
+```
+
+As the above graph shows, only 8 of the 33 users tracked their BMI through their activity tracker. 
 
