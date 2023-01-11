@@ -61,3 +61,16 @@ ORDER BY Id, ActivityDate
 
 Saved new table as *DailyActivity_v4*
 
+Clean data to remove *null* values from Sleep Table
+
+```
+SELECT *
+FROM `capstone-project-370021.Fitbit_Data.SleepDay_merged`
+WHERE
+Id IS NOT NULL OR
+SleepDay IS NOT NULL OR
+TotalMinutesAsleep IS NOT NULL OR
+TotalTimeInBed IS NOT NULL OR
+TotalSleepRecords IS NOT NULL
+```
+
