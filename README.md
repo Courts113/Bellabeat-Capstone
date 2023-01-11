@@ -94,3 +94,8 @@ FROM `capstone-project-370021.Fitbit_Data.minuteMETsNarrow`
 WHERE METs<>0
 ```
 
+## Analyze
+
+Since we do not know much about the user demographics, we can analyze the data to get an idea about key characteristics of our users.
+
+image: AVGSteps.PNG
