@@ -39,6 +39,7 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * SleepDay
 * WeightLogInfo
 * hourlyCalories
+* DailyMETs
 
 Clean data to remove entries that included zero steps per day on dailyActivity
 
@@ -81,3 +82,12 @@ SELECT *
 FROM `capstone-project-370021.Fitbit_Data.dailyCalories`
 WHERE Calories<>0
 ```
+
+Clean data to remove *zero METs days* from DailyMETs Table
+
+```
+SELECT *
+FROM `capstone-project-370021.Fitbit_Data.minuteMETsNarrow`
+WHERE METs<>0
+```
+
