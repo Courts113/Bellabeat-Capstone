@@ -41,6 +41,8 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * hourlyCalories
 * DailyMETs
 
+Remove duplicate entries from all data tables
+
 Clean data to remove entries that included zero steps per day on dailyActivity
 
 ```
