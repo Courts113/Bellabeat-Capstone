@@ -32,3 +32,9 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
   + 24 users provided sleep data
   + 8 users provided weight log data
 ## Process
+During this capstone, SQL via Bigquery was used to clean and manipulate the data.  
+Data tables used:
+* dailyActivity
+* SleepDay
+* WeightLogInfo
+* hourlyCalories
