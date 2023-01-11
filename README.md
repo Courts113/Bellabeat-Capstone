@@ -44,7 +44,7 @@ Clean data to remove entries that included zero steps per day on dailyActivity
 
 ```
 SELECT  *
-FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v3`
+FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v2`
 WHERE TotalSteps<>0
 ```
 
