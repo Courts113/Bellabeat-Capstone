@@ -14,6 +14,11 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 > Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.53894
 ### Key Features of the Data
 * 18 CSV files
-* 30 eligible fitbit users responded to distributed surverys via Amazon Mechanical Turk between 03.12.2016-05.12.2016. 
+* 33 eligible fitbit users responded to distributed surverys via Amazon Mechanical Turk between 03.12.2016-05.12.2016. 
 * Data consists of personal tracker data including sleep monitoring, physical activity, and heart rate.
 ### ROCCC
+* Reliability
+* Original
+* Comprehensive
+* Current
+* Cited
