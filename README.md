@@ -74,3 +74,10 @@ TotalTimeInBed IS NOT NULL OR
 TotalSleepRecords IS NOT NULL
 ```
 
+Clean data to remove *zero calorie days* from Calorie Table
+
+```
+SELECT *
+FROM `capstone-project-370021.Fitbit_Data.dailyCalories`
+WHERE Calories<>0
+```
