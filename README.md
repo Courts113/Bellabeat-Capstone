@@ -31,4 +31,4 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
   + 33 users provided physical activity data
   + 24 users provided sleep data
   + 8 users provided weight log data
-### Process
+## Process
