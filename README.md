@@ -18,6 +18,7 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * Data consists of personal tracker data including sleep monitoring, physical activity, and heart rate.
 ### ROCCC
 * Reliability
+  + Only 30 users
 * Original
 * Comprehensive
 * Current
