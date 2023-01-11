@@ -22,7 +22,7 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * Comprehensive: Data includes minute level output of sleep monitoring, heart rate, and physical activity.
 * Current: Data was obtained from 03.12.2016-05.12.2016
 * Cited:Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.53894
-♦️### Limitations
+### Limitations
 * Data is not current
 * Data was obtained from only 33 users which is too small to be representative of the population as a whole
 * Unknown demographics of users
