@@ -26,5 +26,5 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * Data is not current
 * Data was obtained from only 33 users which is too small to be representative of the population as a whole
 * Unknown demographics of users
-* Uknown selection process of users
+* Unknown selection process of users
 * Data is not consistent. 
