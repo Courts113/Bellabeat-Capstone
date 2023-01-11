@@ -48,14 +48,16 @@ FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v2`
 WHERE TotalSteps<>0
 ```
 
+Saved new table as *DailyActivity_v3*
+
 Organize data by Id and then by date on dailyActivity
 
 ```
 SELECT
 *
-FROM `capstone-project-370021.Fitbit_Data.DailyActivity_v2`
+FROM `capstone-project-370021.Fitbit_Data.DailyActivity_v3`
 ORDER BY Id, ActivityDate
 ```
 
-Saved new table as *DailyActivity_v3*
+Saved new table as *DailyActivity_v4*
 
