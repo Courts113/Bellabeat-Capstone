@@ -17,9 +17,14 @@ Analyze how consumers utilize non-Bellabeat smart devices and apply insignts to 
 * 33 eligible fitbit users responded to distributed surverys via Amazon Mechanical Turk between 03.12.2016-05.12.2016. 
 * Data consists of personal tracker data including sleep monitoring, physical activity, and heart rate.
 ### ROCCC
-* Reliability
-  + Only 30 users
-* Original
-* Comprehensive
-* Current
-* Cited
+* Reliability: Data was obtained from 33 eligible fitbit users via Amazon Mechanical Turk surverys.
+* Original: Data was obtained from 33 eligible fitbit users via Amazon Mechanical Turk surverys.
+* Comprehensive: Data includes minute level output of sleep monitoring, heart rate, and physical activity.
+* Current: Data was obtained from 03.12.2016-05.12.2016
+* Cited:Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.53894
+### Limitations
+* Data is not current
+* Data was obtained from only 33 users which is too small to be representative of the population as a whole
+* Unknown demographics of users
+* Uknown selection process of users
+* Data is not consistent. 
