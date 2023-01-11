@@ -112,9 +112,9 @@ FROM `capstone-project-370021.Fitbit_Data.dailySteps_v2`
 GROUP BY Id
 ```
 
-As we can see, average daily steps range from 1,247 - 16,807 steps per day. Average steps amongst all users was 9,011 steps per day.
+As we can see, average daily steps range from 1,247 - 16,807 steps per day. Average steps out of all users was 9,011 steps per day.
 
-### Average BMI amongst users
+### Average BMI amongst Users
 
 ![AVG BMI](https://user-images.githubusercontent.com/121068001/211932698-22ad32f5-8cfa-4ba7-af51-a37d41ce7955.png)
 
@@ -147,3 +147,6 @@ FROM `capstone-project-370021.Fitbit_Data.SleepDay_merged_v2`
 GROUP BY Id
 ```
 
+### Variable Relationships
+
+Let's take a further look into varying relationships among variables
