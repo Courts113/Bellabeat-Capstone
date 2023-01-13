@@ -147,8 +147,16 @@ AVG(TotalMinutesAsleep) AS average_minutes_asleep,
 AVG(TotalTimeInBed) AS average_time_in_bed
 FROM `capstone-project-370021.Fitbit_Data.SleepDay_merged_v2`
 GROUP BY Id
+
 ```
 
 ### Variable Relationships
 
 Let's take a further look into varying relationships among variables
+
+#### Total Steps vs. Total Calories
+
+![Total Calories vs  Total Steps](https://user-images.githubusercontent.com/121068001/212410058-7434febe-2ac3-41b4-a172-91a7bcb571ec.png)
+
+Here we can see a correlation between total steps and calories burned
+
