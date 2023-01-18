@@ -132,6 +132,10 @@ GROUP BY Id
 
 As the above graph shows, only 8 of the 33 users tracked their BMI through their activity tracker. 
 
+![Breakdown of BMI](https://user-images.githubusercontent.com/121068001/213311271-2ec537e1-bff4-492e-a5b7-153111a3b81a.png)
+
+Here is another visualization of BMI broken down into the following categories: underweight, healthy weaight, overweight, and obese as defined by the CDC. 
+
 #### Average Time Asleep per Night
 
 ![AVG Total Sleep](https://user-images.githubusercontent.com/121068001/211933945-c89a92dd-5c7e-4bae-8c12-42a4399cf38e.png)
