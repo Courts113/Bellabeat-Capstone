@@ -134,7 +134,18 @@ As the above graph shows, only 8 of the 33 users tracked their BMI through their
 
 ![Breakdown of BMI](https://user-images.githubusercontent.com/121068001/213311271-2ec537e1-bff4-492e-a5b7-153111a3b81a.png)
 
-Here is another visualization of BMI broken down into the following categories: underweight, healthy weaight, overweight, and obese as defined by the CDC. 
+Here is another visualization of BMI broken down into the following categories: underweight, healthy weaight, overweight, and obese as defined by the CDC.  The following query was used to gather this data:
+```
+SELECT
+CASE
+WHEN BMI < 18.5 THEN 'Underweight'
+WHEN BMI BETWEEN 18.5 AND 24.9 THEN 'Healthy_weight'
+WHEN BMI BETWEEN 25.0 AND 29.9 THEN 'Overweight'
+WHEN BMI > 30.0 THEN 'Obese'
+END AS BMI_Categories
+FROM `capstone-project-370021.Fitbit_Data.AVG_BMI`
+GROUP BY BMI
+```
 
 #### Average Time Asleep per Night
 
