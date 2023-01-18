@@ -160,3 +160,6 @@ Let's take a further look into varying relationships among variables
 
 Here we can see a correlation between total steps and calories burned
 
+#### Total Steps vs. Total Time Asleep
+
+![Total Steps vs  Sleep Time](https://user-images.githubusercontent.com/121068001/213291998-e7996963-0dff-45ed-8e26-c72666a7da92.png)
