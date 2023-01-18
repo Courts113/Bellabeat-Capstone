@@ -173,8 +173,10 @@ Let's take a further look into varying relationships among variables
 
 ![Total Calories vs  Total Steps](https://user-images.githubusercontent.com/121068001/212410058-7434febe-2ac3-41b4-a172-91a7bcb571ec.png)
 
-Here we can see a correlation between total steps and calories burned
+Here we can see a positive correlation between total steps and calories burned amongst users
 
 #### Total Steps vs. Total Time Asleep
 
 ![Total Steps vs  Sleep Time](https://user-images.githubusercontent.com/121068001/213291998-e7996963-0dff-45ed-8e26-c72666a7da92.png)
+
+As seen with this visualization, there does not appear to be a relationship between total steps per day and total amount of sleep at night.
