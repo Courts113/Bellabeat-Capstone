@@ -197,4 +197,38 @@ FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v5`
 GROUP BY weekday_name_abbreviated
 ```
 
+#### Average steps per hour for all users
+![Average steps per hour](https://user-images.githubusercontent.com/121068001/213343576-dd97bcef-1871-4ca3-a991-4d94f980e74d.png)
+
+Users are most active through the hours of 8 AM and 7 PM with a lull in activity around 3 PM
+
+This information was found via the following queries:
+
+First, I had to change the data type from TIMEDATE to STRING in order to separate the date from time:
+```
+SELECT  
+*,
+CAST(ActivityHour AS string) AS NewDate
+FROM `capstone-project-370021.Fitbit_Data.hourlySteps`
+```
+
+Then, I used the SUBSTR function to separate date and time
+
+```
+SELECT 
+Id,
+StepTotal,
+ActivityHour,
+SUBSTR(NewDate, 12, 8)  AS Time
+FROM `capstone-project-370021.Fitbit_Data.hourlySteps_v2` 
+```
+Now to find the average steps per time
+
+```
+SELECT  
+Time,
+AVG(StepTotal) AS Average_steps
+FROM `capstone-project-370021.Fitbit_Data.hourlySteps_v3` 
+GROUP BY TIME
+```
 
