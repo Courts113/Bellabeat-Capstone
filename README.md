@@ -100,7 +100,7 @@ WHERE METs<>0
 
 Since we do not know much about the user demographics, we can analyze the data to get an idea about key characteristics of our users.
 
-#### Average Steps per Day
+#### Average Steps per Day by ID
 
 ![AVG Steps](https://user-images.githubusercontent.com/121068001/211927676-1e288c30-357a-4d3f-962b-49fc45be9a76.png)
 
@@ -180,3 +180,21 @@ Here we can see a positive correlation between total steps and calories burned a
 ![Total Steps vs  Sleep Time](https://user-images.githubusercontent.com/121068001/213291998-e7996963-0dff-45ed-8e26-c72666a7da92.png)
 
 As seen with this visualization, there does not appear to be a relationship between total steps per day and total amount of sleep at night.
+
+### Activity Tracker Usage
+
+#### Average steps of all users by weekday
+![Average steps per day by all users](https://user-images.githubusercontent.com/121068001/213335930-ef74bf46-990d-47ac-aeb4-e13987f6ceeb.png)
+
+According to this graph, we can see that users are most active on Tuesdays and Saturdays. Sunday appears to be the least active day for most users.
+
+The following query was used to find this data:
+```
+SELECT  
+weekday_name_abbreviated,
+AVG(TotalSteps) AS Average_steps
+FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v5` 
+GROUP BY weekday_name_abbreviated
+```
+
+
