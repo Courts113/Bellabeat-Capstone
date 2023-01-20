@@ -94,7 +94,7 @@ FROM `capstone-project-370021.Fitbit_Data.minuteMETsNarrow`
 WHERE METs<>0
 ```
 
-## Analyze
+## Analyze/Share
 
 ### Get to know our users
 
