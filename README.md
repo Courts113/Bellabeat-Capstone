@@ -198,7 +198,7 @@ GROUP BY weekday_name_abbreviated
 ```
 #### Average activity level by weekday
 
-'''
+```
 SELECT  
 weekday_name_abbreviated,
 AVG(VeryActiveMinutes) AS veryActive,
@@ -207,9 +207,11 @@ AVG(LightlyActiveMinutes) AS LightlyActive,
 AVG(SedentaryMinutes) AS Sedentary,
 FROM `capstone-project-370021.Fitbit_Data.dailyActivity_v6` 
 GROUP BY weekday_name_abbreviated
-'''
+```
 
 ![Sheet 7](https://user-images.githubusercontent.com/121068001/215548474-e23c4074-d0c3-423b-a897-4189fabcde29.png)
+
+Users were most sedentary Mondays and Fridays
 
 
 #### Average steps per hour for all users
