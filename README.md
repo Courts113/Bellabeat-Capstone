@@ -249,3 +249,16 @@ FROM `capstone-project-370021.Fitbit_Data.hourlySteps_v3`
 GROUP BY TIME
 ```
 
+## ACT
+
+### Summary Findings:
+
+* Users take the most steps on Tuesdays and Saturdays
+* Users have the most sedentary minutes on Mondays and Fridays
+* Users are most active between the hours of 8 am and 7 pm with a lull in activity around 3 PM
+
+
+### Marketing Strategy
+* Utilize reminders every hour for users to get up and move
+* Incorporate a bedtime campaign involving a reminder to "wind down for bed" 
+* Promote reward or point system for activity milestones 
