@@ -256,6 +256,7 @@ GROUP BY TIME
 * Users take the most steps on Tuesdays and Saturdays
 * Users have the most sedentary minutes on Mondays and Fridays
 * Users are most active between the hours of 8 am and 7 pm with a lull in activity around 3 PM
+* Users average ~15.9 hours of sedentary minutes per day
 
 
 ### Marketing Strategy
